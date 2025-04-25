@@ -1,0 +1,9 @@
+openai-agents
+python-dotenv
+beautifulsoup4
+fastapi
+pydantic
+pandas
+ipykernel
+jupyter
+nest_asyncio
