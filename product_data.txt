@@ -1,0 +1,18 @@
+Product Name	Price	Inventory	Colors	Status	Category	Slug
+Nike Blazer Low '77 Jumbo	8595	23	Blue, Red, Gray	Trending	Women's Shoes	nike-blazer-low-77-jumbo
+Nike Air Force 1 Mid '07	10795	20	White	Just In	Men's Shoes	nike-air-force-1-mid-07
+Nike Air Force 1 PLT.AF.ORM	8695	18	White	Just In	Women's Shoes	nike-air-force-1-plt-af-orm
+Nike Air Force 1 React	13295	12	White	Just In	Men's Shoes	nike-air-force-1-react
+Nike Pegasus 40	9795	30	Gray	Best Seller	Men's Running Shoes	nike-pegasus-40
+Nike Blazer Mid '77 Vintage	8495	22	White, Black	Just In	Men's Shoes	nike-blazer-mid-77-vintage
+Nike Waffle One SE	7895	30	Pink	Just In	Women's Shoes	nike-waffle-one-se
+Nike Standard Issue Basketball Jersey	2895	40	White	Just In	Women's Basketball Jersey	nike-standard-issue-basketball-jersey
+Nike Dunk Low Retro SE	9695	15	Beige	Promo Exclusion	Men's Shoes	nike-dunk-low-retro-se
+Nike Dri-FIT UV Hyverse	2495	50	Teal	Sustainable Materials	Men's Short-Sleeve Graphic Fitness Top	nike-dri-fit-uv-hyverse
+Nike Court Vision Low	5695	25	White	Just In	Men's Shoes	nike-court-vision-low
+Nike Air Max 270	13295	20	Black	Trending	Men's Shoes	nike-air-max-270
+Nike Renew Run 3	7295	40	Blue	Trending	Men's Running Shoes	nike-renew-run-3
+Nike Court Vision Low Next Nature	4995	35	Black	Just In	Men's Shoes	nike-court-vision-low-next-nature
+Air Jordan 1 Elevate Low	11895	8	White	Promo Exclusion	Women's Shoes	air-jordan-1-elevate-low
+Nike Zoom Fly 5	11295	10	Black, White	Just In	Men's Running Shoes	nike-zoom-fly-5
+Nike Metcon 8	10295	25	Black	Best Seller	Men's Training Shoes	nike-metcon-8
