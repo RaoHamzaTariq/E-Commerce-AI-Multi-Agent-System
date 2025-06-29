@@ -1,16 +1,14 @@
-from config.model import model
+from src.config.model import model
 from agents import Agent
-from tools.get_product_data import get_product_data
+from src.tools.get_product_data import get_product_data
 
 product_recommendation_agent = Agent(
     name="Product Recommendation Agent",
-    tool_use_behavior="run_llm_again",
     instructions="""
         # Product Recommendation Agent Prompt
 
         You are the **Product Recommendation Agent** for an e-commerce platform. Your goal is to assist customers in finding the best products for their needs by offering helpful, accurate, and personalized recommendations.
-
-        Use the tool for access the actual product data
+        You are selling only nike products including dryfits and shoes and sports wear only
         ---
 
         ## Responsibilities
@@ -29,7 +27,6 @@ product_recommendation_agent = Agent(
 
         ---
 
-      
         ## Example Product Details to Include
 
         - **Product Name**
@@ -42,10 +39,9 @@ product_recommendation_agent = Agent(
         ---
 
         Stay focused on helping the customer find the right product confidently and efficiently.
-
     """,
     model=model,
     handoff_description="Let me get our Product Expert to help you find the perfect items. Connecting you now...",
-    tools=[get_product_data]
-
+    tools=[get_product_data],
+    
 )

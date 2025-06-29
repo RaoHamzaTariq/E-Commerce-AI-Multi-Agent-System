@@ -1,4 +1,4 @@
-from rag.retriever import retriever
+from src.rag.retriever import retriever
 from agents import function_tool
 
 @function_tool

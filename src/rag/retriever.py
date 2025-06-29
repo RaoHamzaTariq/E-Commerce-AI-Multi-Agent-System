@@ -1,4 +1,4 @@
-from .loader import collection
+from src.rag.loader import collection
 import asyncio
 
 async def retriever(prompt :str)->str:

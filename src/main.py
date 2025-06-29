@@ -1,7 +1,7 @@
 from agents import Runner, TResponseInputItem,Agent
-from multi_agents.triage_agent import triage_agent
+from src.multi_agents.triage_agent import triage_agent
 import asyncio
-from config.model import config
+from src.config.model import config
 
 async def start_chat(starting_agent: Agent, chat: list[TResponseInputItem]):
     print("NOTE: Chat started. Type 'EXIT' to end the conversation.")
@@ -41,3 +41,12 @@ async def start_chat(starting_agent: Agent, chat: list[TResponseInputItem]):
 if __name__ == "__main__":
     chat_history: list[TResponseInputItem] = []
     asyncio.run(start_chat(starting_agent=triage_agent, chat=chat_history))
+
+async def chatbot(history:list):
+    result = await Runner.run(
+        starting_agent=triage_agent,
+        input=history,
+        run_config=config
+    )
+
+    return result

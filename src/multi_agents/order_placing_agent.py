@@ -1,4 +1,4 @@
-from config.model import model
+from src.config.model import model
 from agents import Agent
 order_placing_agent = Agent(
     name="Order Placing Agent",

@@ -1,4 +1,4 @@
-from config.model import model
+from src.config.model import model
 from agents import Agent
 order_tracking_agent = Agent(
     name="Order Tracking Agent",

@@ -1,6 +1,6 @@
-from config.model import model
+from src.config.model import model
 from agents import Agent,ModelSettings
-from tools.rag_tool import rag_tool
+from src.tools.rag_tool import rag_tool
 
 general_faqs_agent = Agent(
     name="General FAQs Agent",
@@ -24,5 +24,6 @@ general_faqs_agent = Agent(
         tool_choice="required"
     ),
     handoff_description="I'll route you to our Support team who can answer your question. Please hold...",
-    tools=[rag_tool]
+    tools=[rag_tool],
+    
 )

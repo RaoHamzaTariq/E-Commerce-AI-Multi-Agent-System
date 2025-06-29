@@ -1,9 +1,9 @@
-from config.model import model
+from src.config.model import model
 from agents import Agent,Runner
-from .general_faqs_agent import general_faqs_agent
-from .order_placing_agent import order_placing_agent
-from .order_tracking_agent import order_tracking_agent
-from .product_recommendation_agent import product_recommendation_agent
+from src.multi_agents.general_faqs_agent import general_faqs_agent
+from src.multi_agents.order_placing_agent import order_placing_agent
+from src.multi_agents.order_tracking_agent import order_tracking_agent
+from src.multi_agents.product_recommendation_agent import product_recommendation_agent
 import asyncio
 
 triage_agent = Agent(
